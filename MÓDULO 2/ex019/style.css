@@ -2,8 +2,8 @@
 
 
 /*
-    em html é id = em CSS é #
-    em HTML é class = em CSS é .
+    em html é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
     */
 
 body {
@@ -23,4 +23,19 @@ h1#principal {
 
 h2 {
     color: rgba(44, 87, 44, 0.788);
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: brown;
+}
+.destaque {
+    background-color: #c5c56070;
 }
